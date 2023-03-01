@@ -7,7 +7,7 @@
 - Select region 
 - Select bucket name
 - Select email to get notify
-### Command need to use terraform output file
+### terraform output file
 ```
 terraform output
 ```
