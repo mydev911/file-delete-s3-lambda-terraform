@@ -7,4 +7,21 @@
 - Select region 
 - Select bucket name
 - Select email to get notify
-### Command need to use
+### Command need to use terraform output file
+```
+terraform output
+```
+### terraform output file
+```
+bucket_id = "my-bucket900021"
+cloudwatch_event_rule_description = "Triggers Lambda function to empty S3 bucket every Sunday at midnight"
+cloudwatch_event_rule_name = "trigger_empty_s3_bucket"
+email = "mydev911@gmail.com"
+lambda_exec_role_arn = "arn:aws:iam::784381827836:role/lambda_exec"
+lambda_exec_role_name = "lambda_exec"
+lambda_function_arn = "arn:aws:lambda:us-east-1:784381827836:function:empty_s3_bucket"
+lambda_function_name = "empty_s3_bucket"
+lambda_ses_policy_arn = "arn:aws:iam::784381827836:policy/lambda_ses_policy"
+lambda_ses_policy_name = "lambda_ses_policy"
+```
+
