@@ -6,6 +6,10 @@
 - Clone this code to local machine
 - delete the terraform.tfstate file
 - Open the download file with visual studio code
+#### IN varible.tf file  select those
+- Select region 
+- Select bucket name
+- Select email to get notify
 ```
 terraform init
 terraform plan
@@ -13,10 +17,6 @@ terraform apply
 terrafrom output
 ````
 
-### varible.tf file  
-- Select region 
-- Select bucket name
-- Select email to get notify
 ### terraform output fill
 ```
 terraform output
