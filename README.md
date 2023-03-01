@@ -7,3 +7,4 @@
 - Select region 
 - Select bucket name
 - Select email to get notify
+### Command need to use
